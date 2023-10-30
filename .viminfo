@@ -11,6 +11,8 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:wq1
+|2,0,1698649376,,"wq1"
 :wq!
 |2,0,1698648281,,"wq!"
 
@@ -26,19 +28,27 @@
 
 # File marks:
 '0  1  16  ~/code1.txt
-|4,48,1,16,1698648281,"~/code1.txt"
-'1  1  18  ~/sprint1.txt
-|4,49,1,18,1698645244,"~/sprint1.txt"
-'2  2  0  ~/master.txt
-|4,50,2,0,1698644455,"~/master.txt"
+|4,48,1,16,1698649376,"~/code1.txt"
+'1  1  16  ~/code1.txt
+|4,49,1,16,1698648281,"~/code1.txt"
+'2  1  18  ~/sprint1.txt
+|4,50,1,18,1698645244,"~/sprint1.txt"
+'3  2  0  ~/master.txt
+|4,51,2,0,1698644455,"~/master.txt"
 
 # Jumplist (newest first):
+-'  1  16  ~/code1.txt
+|4,39,1,16,1698649376,"~/code1.txt"
 -'  1  16  ~/code1.txt
 |4,39,1,16,1698648281,"~/code1.txt"
 -'  1  18  ~/sprint1.txt
 |4,39,1,18,1698645244,"~/sprint1.txt"
 -'  1  18  ~/sprint1.txt
 |4,39,1,18,1698645244,"~/sprint1.txt"
+-'  1  18  ~/sprint1.txt
+|4,39,1,18,1698645244,"~/sprint1.txt"
+-'  1  18  ~/sprint1.txt
+|4,39,1,18,1698645244,"~/sprint1.txt"
 -'  2  0  ~/master.txt
 |4,39,2,0,1698644455,"~/master.txt"
 -'  2  0  ~/master.txt
@@ -47,6 +57,22 @@
 |4,39,2,0,1698644455,"~/master.txt"
 -'  2  0  ~/master.txt
 |4,39,2,0,1698644455,"~/master.txt"
+-'  2  0  ~/master.txt
+|4,39,2,0,1698644455,"~/master.txt"
+-'  2  0  ~/master.txt
+|4,39,2,0,1698644455,"~/master.txt"
+-'  2  0  ~/master.txt
+|4,39,2,0,1698644455,"~/master.txt"
+-'  2  0  ~/master.txt
+|4,39,2,0,1698644455,"~/master.txt"
+-'  1  0  ~/master.txt
+|4,39,1,0,1698644429,"~/master.txt"
+-'  1  0  ~/master.txt
+|4,39,1,0,1698644429,"~/master.txt"
+-'  1  0  ~/master.txt
+|4,39,1,0,1698644429,"~/master.txt"
+-'  1  0  ~/master.txt
+|4,39,1,0,1698644429,"~/master.txt"
 -'  1  0  ~/master.txt
 |4,39,1,0,1698644429,"~/master.txt"
 -'  1  0  ~/master.txt
@@ -59,7 +85,7 @@
 # History of marks within files (newest to oldest):
 
 > ~/code1.txt
-	*	1698648276	0
+	*	1698649372	0
 	"	1	16
 	^	1	17
 	.	1	16
